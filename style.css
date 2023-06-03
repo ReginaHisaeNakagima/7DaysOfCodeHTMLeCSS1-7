@@ -1,5 +1,6 @@
 :root {
   --text-color: #667085;
+  --main-color: #8e2424;
 }
 
 * {
@@ -14,6 +15,7 @@ body {
   height: 100vh;
 }
 
+/*NavBar*/
 nav {
   display: flex;
   justify-content: space-around;
@@ -39,6 +41,41 @@ button {
 }
 
 button#cadastrar {
-  background-color: #8e2424;
+  background-color: var(--main-color);
   color: #fff;
+}
+
+/*Main*/
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+  gap: 24px;
+  width: 1440px;
+  height: 407px;
+}
+.cabecalho span {
+  width: 78px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.cabecalho h1 {
+  width: 603px;
+  height: 60px;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+.cabecalho p {
+  width: 791px;
+  height: 60px;
+  font-size: 20px;
+  color: var(--text-color);
+  line-height: 30px;
+  text-align: center;
 }
