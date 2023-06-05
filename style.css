@@ -79,3 +79,34 @@ button#cadastrar {
   line-height: 30px;
   text-align: center;
 }
+.metricas-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 96px;
+  margin: 0 112px;
+  gap: 32px;
+  background: #ffffff;
+}
+
+.metricas-container span {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+}
+
+.metricas-container h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.metricas-container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 280px;
+  color: var(--text-color);
+}
