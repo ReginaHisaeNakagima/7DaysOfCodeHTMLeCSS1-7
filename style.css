@@ -179,3 +179,42 @@ button#cadastrar {
   display: inline-block;
   padding-right: 24px;
 }
+
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 7rem;
+  padding: 4rem;
+  background: rgba(196, 25, 25, 0.03);
+  border-radius: 1rem;
+}
+
+.depoimentos span {
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.depoimentos p {
+  color: var(--titulo-color);
+  font-size: 2rem;
+  line-height: 2.75rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+  padding-top: 1rem;
+}
+
+.depoimentos img {
+  padding-top: 2rem;
+}
+
+.depoimentos .autora {
+  color: var(--titulo-color);
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+.depoimentos .funcao-autora {
+  color: #667085;
+  font-size: 0.875rem;
+  padding-top: 0, 25rem;
+}
